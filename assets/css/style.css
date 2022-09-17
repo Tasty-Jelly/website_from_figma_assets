@@ -1,0 +1,37 @@
+body {
+    margin:0;
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 24px;
+    line-height: 1.6;
+    color: #959595;
+
+    position: relative;
+    width: 1440px;
+    height: 5750px;
+
+    background: #202020;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    max-width: 100%;
+    margin: auto;
+}
+.intro {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+
+    top: 0px;
+
+    background: rgba(50, 50, 50, 0.7);
+    backdrop-filter: blur(10px);
+}

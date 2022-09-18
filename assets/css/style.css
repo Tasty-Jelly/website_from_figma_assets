@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin:auto;
     font-family: 'Manrope', sans-serif;
 
     font-size: 24px;
@@ -20,18 +20,75 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    position: absolute;
-    max-width: 100%;
-    margin: auto;
-}
-.intro {
+.header {
     position: absolute;
     width: 1440px;
     height: 80px;
-
+    left: calc(50% - 1440px/2);
     top: 0px;
 
     background: rgba(50, 50, 50, 0.7);
     backdrop-filter: blur(10px);
 }
+
+.header_logo{
+
+    position: absolute;
+    left:0px;
+    top;0px;
+    background: url(images/lolo.jpg) no-repeat;
+}
+
+.home_nav {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: calc(50% - 50px/2 + 355px);
+    top: 30px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+.work_nav {
+    position: absolute;
+    width: 43px;
+    height: 25px;
+    left: calc(50% - 43px/2 + 457.5px);
+    top: 30px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+.contact_nav {
+    position: absolute;
+    width: 69px;
+    height: 25px;
+    left: calc(50% - 69px/2 + 576.5px);
+    top: 30px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    letter-spacing: -0.5px;
+}
+.nav_link {
+    text-decoration: none;
+    color: #DEDEDE;
+}
+.work_link {
+     text-decoration: none;
+     color: #DEDEDE;
+ }
+ .contact_link {
+     text-decoration: none;
+     color: #DEDEDE;
+ }

@@ -14,14 +14,8 @@ body {
 
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
 .header {
-    position: absolute;
+    position: fixed;
     width: 1440px;
     height: 80px;
     left: calc(50% - 1440px/2);
@@ -30,15 +24,6 @@ body {
     background: rgba(50, 50, 50, 0.7);
     backdrop-filter: blur(10px);
 }
-
-.header_logo{
-
-    position: absolute;
-    left:0px;
-    top;0px;
-    background: url(images/lolo.jpg) no-repeat;
-}
-
 .home_nav {
     position: absolute;
     width: 50px;
@@ -92,3 +77,4 @@ body {
      text-decoration: none;
      color: #DEDEDE;
  }
+

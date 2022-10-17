@@ -2,14 +2,16 @@
 <html lang="en" xmlns:height="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Document</title>
 </head>
-<body>
 
+<body>
 <div class="header">
     <div class="header_inner">
         <div class="header_logo">
@@ -18,18 +20,16 @@
              </a>
         </div>
         <nav class="nav">
-            <a class="nav_link" href="#">Home</a>
-            <a class="nav_link" href="#">Work</a>
-            <a class="nav_link" href="#">Contact</a>
+            <a class="nav_link" href="#intro"><i class="fa fa-fw fa-home"></i> Главная</a>
+            <a class="nav_link" href="#works"><i class="fa fa-archive" aria-hidden="true"></i> Работы</a>
+            <a class="nav_link" href="#contacts"><i class="fa fa-fw fa-envelope"></i> Контакты</a>
         </nav>
     </div>
 </div>
 
-<div class="intro">
+<div class="intro" id="intro">
     <div class="intro_logo">
-        <a href="#">
             <img src="assets/images/logo.gif" alt="intro_logo" width="460" height="542">
-        </a>
     </div>
     <h1>
         Привет!<br>
@@ -41,7 +41,80 @@
     </h2>
 </div>
 
-
-
+<div class="main_page" id="works">
+    <h3>
+        <i class="fa fa-long-arrow-down" aria-hidden="true"></i> Мои проекты<br>
+    </h3>
+    <div class="row">
+        <div class="column1">
+            <div class="first_image_class">
+                <img src="assets/images/1.png"  alt="First image" width="612" height="888" class="first_image">
+                <div class="first_overlay">Тестирование мобильных приложений и сайтов</div>
+            </div>
+            <div class="second_image_class">
+                <img src="assets/images/2.png" alt="Second image" width="612" height="888" class="second_image">
+                <div class="second_overlay">Разработка мобильных и десктопных приложений и сайтов</div>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="third_image_class">
+                <img src="assets/images/3.png" alt="Third image" width="612" height="888" class="third_image">
+                <div class="third_overlay">Планирование и расстановка задач проекта</div>
+            </div>
+            <div class="fourth_image_class">
+                <img src="assets/images/4.png" alt="Fourth image" width="612" height="888" class="fourth_image">
+                <div class="fourth_overlay">Создание логотипа и дизайна проектов</div>
+            </div>
+        </div>
+    </div>
+<h4>Персональные работы<br></h4>
+    <div class="row_works">
+        <div class="column">
+            <img src="assets/images/5.png" alt="intro_logo" width="400" height="408">
+        </div>
+        <div class="column">
+            <img src="assets/images/6.png" alt="intro_logo" width="400" height="408">
+        </div>
+        <div class="column">
+            <img src="assets/images/7.png" alt="intro_logo" width="400" height="408">
+        </div>
+    </div>
+</div>
+<div>
+    <h5>Пример моей работы</h5>
+    <div class="video">
+        <iframe width="1280" height="720"
+            src="https://www.youtube.com/embed/gzVs8Hy2t-Q">
+        </iframe>
+    </div>
+</div>
+<div class="lower"  id="contacts">
+    <h6>
+        Заинтересовались моей работой?<br>
+        Свяжитесь со мной!
+    </h6>
+    <div class="btn-group" >
+        <form action="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbgvJsdrjJNpnwRBCZxgtSWzBNSgGbscxkHZDbxHdmGTvBLLTvHkQtmcLfkZmdPlPsQtsx" target="_blank">
+        <button class="button">
+            Моя почта
+        </button>
+        </form>
+        <form action="https://vk.com/tasty_jelly_48">
+        <button class="button">
+            Я в ВКонтакте
+        </button>
+        </form>
+        <form action="https://t.me/Tasty_Jelly">
+        <button class="button">
+            Я в Телеграмме
+        </button>
+        </form>
+        <form action="https://discordapp.com/users/">
+        <button class="button">
+            Я в Discord
+        </button>
+        </form>
+    </div>
+</div>
 </body>
 </html>
